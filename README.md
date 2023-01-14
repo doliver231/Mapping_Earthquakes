@@ -26,7 +26,7 @@ To open the `index.html` file: open the command line, navigate to the main direc
 
 ### Interactive Maps Views
 
-The deployed webpage is accessible at https://doliver231.github.io/Mapping_Earthquakes.
+The deployed webpage is accessible at .
 
 Base Layer "Streets" and Overlay Layer showcasing "All Earthquakes" are selected:
 
