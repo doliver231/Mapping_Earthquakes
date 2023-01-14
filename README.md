@@ -11,8 +11,6 @@ The objective of this project is to gather earthquake GeoJSON data from the USGS
 
 ### Interactive Maps Views
 
-The deployed webpage is accessible at [https://doliver231.github.io/Mapping_Earthquakes/](https://doliver231.github.io/Mapping_Earthquakes/Earthquake_Challenge/index.html)
-
 Base Layer "Streets" and Overlay Layer showcasing "All Earthquakes" are selected:
 
 ![Streets](https://github.com/doliver231/Mapping_Earthquakes/blob/main/Images/Streets-AllEarthquakes.png)
