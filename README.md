@@ -9,28 +9,13 @@ The objective of this project is to gather earthquake GeoJSON data from the USGS
 * Data Source: [Earthquakes GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson), [Major Earthquakes >4.5mag GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson), [Tectonic Plate GeoJSON](https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json)
 * Software: HTML/CSS, JavaScript, Visual Studio Code, Leaflet 1.7.1, D3.js, Mapbox
 
-## Analysis
-
-To interact with the maps API, the user has to create a Mapbox account on the [website](www.mapbox.com) and retrieve the access token.
-
-As shown below, the [index.html](https://github.com/doliver231/Mapping_Earthquakes/blob/main/Earthquake_Challenge/index.html) calls for the Mapbox API key in the `config.js` file.
-
-![config html](https://github.com/doliver231/Mapping_Earthquakes/blob/main/Images/configonHTML.png)
-![config Static](https://github.com/doliver231/Mapping_Earthquakes/blob/main/Images/configonStatic.png)
-
-To open the `index.html` file: open the command line, navigate to the main directory, and enter:
-
-                            ```
-                            python -m http.server
-                            ```
-
 ### Interactive Maps Views
 
 The deployed webpage is accessible at https://doliver231.github.io/Mapping_Earthquakes/
 
 Base Layer "Streets" and Overlay Layer showcasing "All Earthquakes" are selected:
 
-![Streets](https://github.com/doliver231/Mapping_Earthquakes/blob/main/Images/configonStatic.png)
+![Streets](https://github.com/doliver231/Mapping_Earthquakes/blob/main/Images/Streets-AllEarthquakes.png)
 
 Base Layer "Satellite" and Overlay Layer showcasing "Tectonic Plates" are selected:
 ![Satellite](https://github.com/doliver231/Mapping_Earthquakes/blob/main/Images/Satellite-Tectonic.png)
