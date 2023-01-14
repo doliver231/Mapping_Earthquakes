@@ -13,27 +13,27 @@ The objective of this project is to gather earthquake GeoJSON data from the USGS
 
 To interact with the maps API, the user has to create a Mapbox account on the [website](www.mapbox.com) and retrieve the access token.
 
-As shown below, the [index.html]() calls for the Mapbox API key in the `config.js` file.
+As shown below, the [index.html](https://github.com/doliver231/Mapping_Earthquakes/blob/main/Earthquake_Challenge/index.html) calls for the Mapbox API key in the `config.js` file.
 
-![config html]()
-![config Static]()
+![config html](https://github.com/doliver231/Mapping_Earthquakes/blob/main/Images/configonHTML.png)
+![config Static](https://github.com/doliver231/Mapping_Earthquakes/blob/main/Images/configonStatic.png)
 
 To open the `index.html` file: open the command line, navigate to the main directory, and enter:
 
-                            ```py
+                            ```
                             python -m http.server
                             ```
 
 ### Interactive Maps Views
 
-The deployed webpage is accessible at .
+The deployed webpage is accessible at https://doliver231.github.io/Mapping_Earthquakes/
 
 Base Layer "Streets" and Overlay Layer showcasing "All Earthquakes" are selected:
 
-![Streets]()
+![Streets](https://github.com/doliver231/Mapping_Earthquakes/blob/main/Images/configonStatic.png)
 
 Base Layer "Satellite" and Overlay Layer showcasing "Tectonic Plates" are selected:
-![Satellite]()
+![Satellite](https://github.com/doliver231/Mapping_Earthquakes/blob/main/Images/Satellite-Tectonic.png)
 
 Base Layer "Dark" and Overlay Layer showcasing only "Major Earthquakes with magnitude above 4.5" are selected:
-![Dark]()
+![Dark](https://github.com/doliver231/Mapping_Earthquakes/blob/main/Images/Dark-MajorEarthquakes.png)
